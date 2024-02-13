@@ -40,10 +40,12 @@ app.get("/api/v1/posts/:id", (req, res) => {
   res.status(200).json(post);
 });
 
+// Menampilkan Semua isi Json
 app.get("/api/v1/posts", (req, res) => {
   res.status(200).json(posts);
 });
 
+// Untuk Menjalankan Server
 app.listen(3000, () => {
   console.log("Server Active");
 });
