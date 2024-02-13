@@ -18,7 +18,9 @@
 
 
 Output Ketika Menggunakan Software Postman :
+
 catatan :
+
 disini saya mengguakan JSON untuk Database sementara untuk testing, belum menggunakan Database seperti Mysql atau platform database manapun.
 dan untuk penggunaan postman kalian bisa nonton Youtube aja ya !!.Oke lanjut
 
