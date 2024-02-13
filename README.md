@@ -12,7 +12,7 @@
 - usahakan di leptop teman-teman udah terinstal node js
 - lalu tulis perintah dibawah di terminal atau git bash (git bashnya harus dalam folder project)
   
-  ![alt text](https://raw.githubusercontent.com/Rasyahodhe/latihan_crud_express_binar/main/aboutnpm/node.png)
+![alt text](https://raw.githubusercontent.com/Rasyahodhe/latihan_crud_express_binar/main/aboutnpm/node.png)
   
 - lalu ketika informasinya server aktif silahkan tes dengan menggunakan postman
 
