@@ -8,7 +8,7 @@
 
 ![alt text](https://raw.githubusercontent.com/Rasyahodhe/latihan_crud_express_binar/main/aboutnpm/morganins.png)
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Aktifin Server : <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+============================================================ Aktifin Server : ==========================================================
 - usahakan di leptop teman-teman udah terinstal node js
 - lalu tulis perintah dibawah di terminal atau git bash (git bashnya harus dalam folder project)
   
