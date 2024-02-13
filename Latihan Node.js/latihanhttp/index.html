@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+      }
+      #tabeldata {
+        width: 100%;
+        height: 50px;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <div class="com-input">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" />
+      </div>
+      <div class="com-input">
+        <label for="password">Password</label>
+        <input type="text" id="password" name="password" />
+      </div>
+      <div class="com-input">
+        <button type="submit" id="btn_login">Login</button>
+      </div>
+    </form>
+    <div id="tabeldata"></div>
+    <script>
+      const tampung = document.getElementById("tabeldata");
+      var datatabel = ["BMW", "Ferarri", "Bugati", "Lamborgini", "McMaclaren"];
+      for (let i = 0; i < datatabel.length; i++) {
+        const head1 = document.createElement("h1");
+        head1.innerText = `${datatabel[i]}`;
+        tampung.appendChild(head1);
+      }
+
+      const btn_click = document.getElementById("btn_login");
+      btn_click.addEventListener("click", () => {
+        const user = document.getElementById("username").value;
+        const pass = document.getElementById("password").value;
+
+        alert(`${user} dan Password ${pass}`);
+      });
+    </script>
+  </body>
+</html>
