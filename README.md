@@ -50,7 +50,7 @@ Untuk mengupdate Salah satu isi JSON berdasarkan ID, lihat pada gambar bagian En
 Untuk menghapus salah satu Isi JSON berdasarkan ID, sesuai dengan put ya, cek Endpoint terakhir
 
 
- ![alt text](https://raw.githubusercontent.com/Rasyahodhe/latihan_crud_express_binar/main/aboutnpm/deleta.png)
+ ![alt text](https://raw.githubusercontent.com/Rasyahodhe/latihan_crud_express_binar/main/aboutnpm/delete.png)
 
 
 
